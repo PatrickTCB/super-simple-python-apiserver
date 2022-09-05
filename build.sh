@@ -1,3 +1,3 @@
 #!/bin/sh
-DOCKERHOST=localhost:8500
-docker build -t $DOCKERHOST/sspapi:latest .
+DOCKERHOST=docker.phn1.net
+docker build -t docker.phn1.net/siri-extender:latest .

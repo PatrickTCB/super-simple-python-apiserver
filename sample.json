@@ -1,0 +1,7 @@
+{
+    "siriText": "Some text for Siri to say",
+    "data": {
+        "key": "value",
+        "key2": "value2"
+    }
+}

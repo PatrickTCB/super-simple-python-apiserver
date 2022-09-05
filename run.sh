@@ -1,3 +1,3 @@
 #!/bin/sh
-DOCKERHOST=localhost:8500
-docker run -d --restart always --name my-apiserver -p 8081:8080 $DOCKERHOST/sspapi:latest
+DOCKERHOST=docker.phn1.net:8500
+docker run -d --restart unless-stopped --name siri-extender -p 8081:8080 docker.phn1.net/siri-extender:latest
