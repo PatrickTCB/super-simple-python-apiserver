@@ -13,3 +13,5 @@ If you call the API path then just the JSON is returned and the Siri shortcut wi
 If you call the web path, then a page will be built that has the text in a blurb and then the data in a table.
 
 Should work for basically any command now or later.
+
+See `sample.json` for how everything is supposed to look.
